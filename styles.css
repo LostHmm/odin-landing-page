@@ -3,8 +3,12 @@
     margin: 0;
 }
 
-header {
+#header-and-section1 {
     background-color: #1f2937;
+    padding-bottom: 38px;
+}
+
+header {
     display: flex;
     padding: 20px 150px;
     justify-content: space-between;
@@ -27,12 +31,11 @@ header {
 }
 
 .section1 {
-    background-color: #1f2937;
     display: flex;
     flex: 1;
     justify-content: space-between;
     padding: 80px 150px;
-    gap: 150px;
+    gap: 20px;
 }
 
 #hero-main-text {
@@ -60,4 +63,44 @@ header {
 
 #main-image {
     flex: 1;
+}
+
+#section2 {
+    justify-content: center;
+    padding: 40px 50px;
+    padding-bottom: 112px;
+}
+
+#information-header {
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    color: #1f2937;
+    display: flex;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+#information-images {
+    justify-content: center;
+    display: flex;
+    gap: 48px;
+}
+
+#information-images img {
+    border: 4px solid #3882f6;
+    border-radius: 18px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 175px;
+}
+
+.card p {
+    text-align: justify;
+    font-size: 18px;
+    color: #757679;
 }
