@@ -100,7 +100,45 @@ header {
 }
 
 .card p {
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     color: #757679;
+}
+
+#section3 {
+    background-color: #e5e7eb;
+    padding: 124px 220px;
+}
+
+#quote-text {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    padding-bottom: 4px;
+}
+
+#quote-source {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+    padding-right: 40px;
+}
+
+#section4 {
+    padding: 124px 112px;
+}
+
+#call-to-action {
+    background-color: #3882f6;
+    padding: 48px 112px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+#sign-up.section4-button {
+    border: 2px solid #e5e7eb;
 }
